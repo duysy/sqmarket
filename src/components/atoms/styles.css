@@ -1,0 +1,19 @@
+.btn {
+    outline-style: none;
+    font-size: 1.1rem;
+    background-color: #4ECDC4;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 0.5rem;
+}
+
+.btn:hover {
+    background-color: #3D4751;
+}
+
+
+/* https://coolors.co/292f36-4ecdc4-f7fff7-ff6b6b-ffe66d */
+
+
+/* Gunmetal,Medium Turquoise,Mint Cream,Bittersweet,Naples Yellow */
