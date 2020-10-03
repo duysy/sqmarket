@@ -1,0 +1,142 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-content {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    width: 70%;
+    padding: 3rem;
+}
+
+.homepage-category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.homepage-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.homepage-product>.product-card {
+    margin: 1rem;
+}
+
+.product-view {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    display: flex;
+    border: 1px solid #E0E0E0;
+}
+
+.product-view-image {
+    width: 50%;
+    padding: 0.7rem;
+    border-radius: 7px;
+}
+
+.product-view-bag {
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.product-list-image {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.product-item-image {
+    width: 4rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+.product-view-parameter li {
+    height: 2rem;
+}
+
+.product-view-parameter>ul {
+    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    margin: 2rem 0.1rem;
+}
+
+.product-option {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    margin: 2rem 0.1rem;
+}
+
+.product-option-item {
+    padding: 0.5rem;
+    border: 1px solid #FF9999;
+    border-radius: 7px;
+    margin: 0.5rem;
+}
+
+.product-action {
+    display: flex;
+    justify-content: start;
+    margin: 1rem 0.1rem;
+}
+
+.product-action>input {
+    height: 2rem;
+    background-color: #FF8585;
+    padding: 0.4rem;
+    margin: 0 0.3rem;
+    border-radius: 3px;
+}
+
+.product-action>input:hover {
+    background-color: #FF7070;
+}
+
+.product-info-report {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0.1rem;
+    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    color: tomato;
+    font-size: 1.2rem;
+}
+
+.product-share {
+    display: flex;
+    padding: 1.5rem;
+}
+
+.product-share>i {
+    font-size: 2rem;
+    align-items: center;
+    color: #FF4747;
+    width: 3em;
+    height: 3rem;
+}
+
+.product-share>i:hover {
+    color: #FF0A0A;
+}

@@ -15,7 +15,6 @@ export default class extends Component {
             if (this.state.count >= this.props.dataImage.length) {
                 this.setState({
                     count: 0
-
                 });
             }
         }, this.props.timeChange);
@@ -26,7 +25,7 @@ export default class extends Component {
     render() {
         return (
             <div className="banner-image-container">
-                <img src={this.props.dataImage[this.state.count]} alt="" width="100%"/>
+                <img src={this.props.dataImage[this.state.count]} alt="" width="100%" height="100%"/>
                 <div className="banner-circle-button">
                     {this.props.dataImage.map((value, index) => {
                         return <input type="button"

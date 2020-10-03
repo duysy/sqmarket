@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import "./styles.css"
-import { Button } from "../atoms";
 export default class extends Component {
     render() {
         return (
-            <div className="categories-item">
+            <div className="category-item">
                 <ul>
                     <li>
                         <img src="https://loremflickr.com/100/100" alt="" />

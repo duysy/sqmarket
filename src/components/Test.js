@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import {Button} from "./atoms";
-import {Header,Navbar,Itemcategities,Banner} from "./molecules";
+import 'font-awesome/css/font-awesome.min.css';
+import {Header,Navbar,ItemCategory,Banner,CategoryCard,ProductCard,Footer} from "./molecules";
+import {HomePage} from "./pages"
 const styles = {
     width:"100%",
     height:"300px",
@@ -9,8 +10,8 @@ const styles = {
     alignItems: "center"
 }
 const dataImages=[
-    "https://www.chotot.com/kinhnghiem/wp-content/uploads/2019/02/cho-nhat.jpg",
-    "https://www.chotot.com/kinhnghiem/wp-content/uploads/2018/05/cho-alaska-cho-tot.jpg"
+    "https://loremflickr.com/1500/500",
+    "https://loremflickr.com/1500/501"
 ]
 export default class extends Component {
     render() {
@@ -18,8 +19,13 @@ export default class extends Component {
             <div>
               <Header></Header>
               <Navbar></Navbar>
-              <Itemcategities></Itemcategities>
+              {/* <ItemCategory></ItemCategory>
               <Banner dataImage={dataImages} timeChange="3000"></Banner>
+              <CategoryCard></CategoryCard>
+              <ProductCard></ProductCard>
+              <Footer></Footer>
+              <HomePage></HomePage> */}
+
             </div>
         );
     }
