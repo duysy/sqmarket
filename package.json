@@ -37,5 +37,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "* ipfs-react-router\r * react-router-dom",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duysy/sqmarket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duysy/sqmarket/issues"
+  },
+  "homepage": "https://github.com/duysy/sqmarket#readme"
 }
