@@ -1,16 +1,18 @@
 import Header from "./Header";
 import Navbar from "./Navbar";
-import ItemCategory from "./ItemCategory";
+import ListCategory from "./ListCategory";
 import Banner from "./Banner";
 import CategoryCard from "./CategoryCard";
 import ProductCard from "./ProductCard";
 import Footer from "./Footer";
+import CartCardItem from "./CartCardItem";
 export {
     Header,
     Navbar,
-    ItemCategory,
+    ListCategory,
     Banner,
     CategoryCard,
     ProductCard,
-    Footer
+    Footer,
+    CartCardItem
 }

@@ -1,4 +1,10 @@
-import Button from "./Button"
+import Button from "./Button";
+import StarRate from "./StarRate";
+import GoTopPage from "./GoTopPage";
+import TabView from "./TabViews";
 export {
-    Button
+    Button,
+    StarRate,
+    GoTopPage,
+    TabView
 }

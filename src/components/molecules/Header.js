@@ -19,7 +19,7 @@ export default class extends Component {
                     <h4>duyduysysy@gmail.com</h4>
                 </div>
                 <div className="header-cart">
-                    <i class="fa fa-shopping-cart" aria-hidden="true">&nbsp;My Cart(0)</i>
+                    <i className="fa fa-shopping-cart" aria-hidden="true">&nbsp;My Cart(0)</i>
                 </div>
             </div>
         );

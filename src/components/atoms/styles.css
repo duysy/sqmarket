@@ -12,6 +12,78 @@
     background-color: #3D4751;
 }
 
+.start-rate {
+    color: #FFE067;
+}
+
+.btn-scroll-top {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: tomato;
+    z-index: 1000;
+    border-radius: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.tab-view {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #4ECDC4;
+    border-radius: 3px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.nav-tab {
+    width: 15%;
+    border: 1px solid #E8EBED;
+    margin: 1rem;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+.nav-tab li {
+    height: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.nav-tab li:hover {
+    background-color: #FF9999;
+}
+
+.nav-tab-panel {
+    flex-grow: 1;
+    min-height: 10rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    border: 1px solid #E0E0E0;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-active {
+    display: block !important;
+}
+
 
 /* https://coolors.co/292f36-4ecdc4-f7fff7-ff6b6b-ffe66d */
 
