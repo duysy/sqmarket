@@ -6,7 +6,7 @@ export default class extends Component {
     render() {
         return (
             <div className="product-card">
-                <img src={this.props.linkImage} alt="" height="65%" width="100%" />
+                <img src={this.props.linkImage} alt="" />
                 <div className="product-info">
                     <div className="product-price">
                         <i className="fa fa-usd" aria-hidden="true">&nbsp;{this.props.price}</i>
