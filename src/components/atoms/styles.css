@@ -55,21 +55,24 @@
     padding: 0.5rem;
 }
 
-.nav-tab li {
+.nav-tab input {
     height: 2rem;
     text-align: center;
-    margin: 1rem 0;
-    text-align: center;
-    line-height: 2rem;
+    width: 100%;
+    margin: 0.2rem 0;
+    padding: 0.1rem;
+    border-radius: 3px;
 }
 
-.nav-tab li:hover {
+.nav-tab input:hover {
     background-color: #FF9999;
 }
 
 .nav-tab-panel {
     flex-grow: 1;
+    width: 100%;
     min-height: 10rem;
+    min-width: 20rem;
     padding: 1rem;
     box-sizing: border-box;
     display: flex;

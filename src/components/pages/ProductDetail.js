@@ -14,7 +14,7 @@ const dataTabView = [
     },
     {
         title: "Description",
-        content: <ListCategory></ListCategory>
+        content: <Footer></Footer>
 
     }
 ]

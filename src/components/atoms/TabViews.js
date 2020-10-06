@@ -19,14 +19,15 @@ export default class extends Component {
         return (
             <div className="tab-view">
                 <div className="nav-tab">
+
                     <ul>
                         {
                             this.props.dataTabView.map((item, index) => {
-                                return <li onClick={() => {
+                                return <li><input type="button" value={item.title} onClick={() => {
                                     this.setState({
                                         tabActive: index
                                     })
-                                }}>{item.title}</li>
+                                }} /></li>
                             })
                         }
                     </ul>
