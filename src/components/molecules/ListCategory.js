@@ -5,7 +5,6 @@ export default class extends Component {
     render() {
         return (
             <div className="category-item">
-                <div className="category-item-detail" />
                 <ul>
                     <li>
                         <img src="https://loremflickr.com/100/100" alt="" />
@@ -109,7 +108,20 @@ export default class extends Component {
                         <img src="https://loremflickr.com/100/100" alt="" />
                         <a href="#">headphone</a>
                         <div className="category-content-detail">
-                            dsadkjadskhk
+                            <div className="category-child-container">
+                                <h4>accessories</h4>
+                                <Link to="/homepage">accessories</Link>
+                                <Link to="/homepage">accessories</Link>
+                                <Link to="/homepage">accessohjgjhries</Link>
+                                <Link to="/homepage">acchgjjessories</Link>
+                            </div>
+                            <div className="category-child-container">
+                                <h4>accessories</h4>
+                                <Link to="/homepage">accessories</Link>
+                                <Link to="/homepage">accessories</Link>
+                                <Link to="/homepage">accessohjgjhries</Link>
+                                <Link to="/homepage">acchgjjessories</Link>
+                            </div>
                         </div>
                     </li>
                     <li>
