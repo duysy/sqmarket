@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./styles.css"
-import { Header, Navbar, ListCategory, Footer } from "../molecules"
+import { Header, Navbar, ListCategory, Footer, CardComment } from "../molecules"
 import { StarRate, GoTopPage, TabView } from "../atoms";
 const dataImages = [
     "https://loremflickr.com/1500/500",
@@ -9,7 +9,14 @@ const dataImages = [
 const dataTabView = [
     {
         title: "Description1",
-        content: <Header></Header>
+        content: <div>
+            <CardComment></CardComment>
+            <CardComment></CardComment>
+            <CardComment></CardComment>
+            <CardComment></CardComment>
+            <CardComment></CardComment>
+            <CardComment></CardComment>
+        </div>
 
     },
     {

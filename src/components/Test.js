@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import 'font-awesome/css/font-awesome.min.css';
-import { Header, Navbar, ItemCategory, Banner, CategoryCard, ProductCard, Footer } from "./molecules";
+import { Header, Navbar, ItemCategory, Banner, CategoryCard, ProductCard, Footer, CardComment } from "./molecules";
 import { HomePage } from "./pages"
 import { GoTopPage, StarRate, TabView } from "./atoms";
 const styles = {
@@ -40,7 +40,8 @@ export default class extends Component {
               <HomePage></HomePage> */}
                 {/* <StarRate numberStar="2"></StarRate> */}
                 {/* <GoTopPage>Top</GoTopPage> */}
-                <TabView dataTabView={dataTabView}></TabView>
+                {/* <TabView dataTabView={dataTabView}></TabView> */}
+                <CardComment/>
 
             </div>
         );

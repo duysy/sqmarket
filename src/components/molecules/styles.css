@@ -200,7 +200,7 @@
 
 .banner-image-container {
     position: relative;
-    min-height: 50%;
+    min-height: 20rem;
     width: 100%;
 }
 
@@ -523,6 +523,62 @@
 
 .category-child-container>a:hover {
     background-color: #FFD6D6;
+}
+
+.card-comment {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #FFADAD;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.commnet-image {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.comment-list-image {
+    display: inline-flex;
+    height: 3rem;
+    justify-content: space-around;
+    border: 1px solid #FFADAD;
+    width: fit-content;
+    padding: 0.2rem;
+    border-radius: 3px;
+}
+
+.comment-list-image img {
+    margin: 0 1rem;
+    border-radius: 7px;
+    padding: 0.1rem;
+    border: 1px solid #D0D6DC;
+    box-sizing: border-box;
+    max-width: 3rem;
+    min-height: 2rem;
+}
+
+.overview-comment {
+    display: flex;
+}
+
+.overview-comment>* {
+    margin: 1px 1rem;
+}
+
+.commnet-content>p {
+    padding: 0.1rem 1rem;
+}
+
+.comment-image-main>img {
+    max-height: 10rem;
+    margin: 1rem 0;
+    display: none;
+}
+
+.display-block {
+    display: block;
 }
 
 

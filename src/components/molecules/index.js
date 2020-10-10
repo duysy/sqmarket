@@ -6,6 +6,7 @@ import CategoryCard from "./CategoryCard";
 import ProductCard from "./ProductCard";
 import Footer from "./Footer";
 import CartCardItem from "./CartCardItem";
+import CardComment from "./CardComment"
 export {
     Header,
     Navbar,
@@ -14,5 +15,6 @@ export {
     CategoryCard,
     ProductCard,
     Footer,
-    CartCardItem
+    CartCardItem,
+    CardComment
 }
