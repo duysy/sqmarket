@@ -21,7 +21,7 @@ export default class extends Component {
                     <ul>
                         {
                             this.props.dataTabView.map((item, index) => {
-                                return <li><input type="button" className={String(index === this.state.tabActive ? "button-active" : "")} value={item.title} onClick={() => {
+                                return <li key={index}><input type="button" className={String(index === this.state.tabActive ? "button-active" : "")} value={item.title} onClick={() => {
                                     this.setState({
                                         tabActive: index
                                     })
@@ -33,7 +33,7 @@ export default class extends Component {
                 <div className="nav-tab-panel">
                     {
                         this.props.dataTabView.map((item, index) => {
-                            return <div className={"tab-content tab-description" + String(index === this.state.tabActive ? " tab-active" : "")}>
+                            return <div key={index} className={"tab-content tab-description" + String(index === this.state.tabActive ? " tab-active" : "")}>
                                 {item.content}
                             </div>
                         })

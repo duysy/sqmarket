@@ -114,6 +114,7 @@ export default class extends Component {
                     {
                         dataProduct.map((item, index) => (
                             <ProductCard
+                                key={index}
                                 linkImage={item.linkImage}
                                 price={item.price}
                                 numberBought={item.numberBought}

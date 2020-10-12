@@ -28,7 +28,7 @@ export default class extends Component {
                 <img src={this.props.dataImage[this.state.count]} alt="" width="100%" height="100%"/>
                 <div className="banner-circle-button">
                     {this.props.dataImage.map((value, index) => {
-                        return <input type="button"
+                        return <input type="button" key={index}
                             className={this.state.count===index ? "banner-circle-button--bgred":""}
                             onClick={() => {
                                 this.setState({

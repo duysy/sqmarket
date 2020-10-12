@@ -1,8 +1,10 @@
 import HomePage from "./HomePage";
 import Cart from "./Cart";
-import ProductDetail from "./ProductDetail"
+import ProductDetail from "./ProductDetail";
+import Mn_Test from "./Mn_Test";
 export {
     HomePage,
     Cart,
-    ProductDetail
+    ProductDetail,
+    Mn_Test
 }

@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import 'font-awesome/css/font-awesome.min.css';
 import { Header, Navbar, ItemCategory, Banner, CategoryCard, ProductCard, Footer, CardComment } from "./molecules";
-import { HomePage } from "./pages"
+import { HomePage, Mn_Test } from "./pages"
 import { GoTopPage, StarRate, TabView } from "./atoms";
+import parse from 'html-react-parser';
+
 const styles = {
     width: "100%",
     height: "300px",
@@ -27,6 +29,28 @@ const dataTabView = [
     }
 ]
 export default class extends Component {
+    constructor() {
+        super();
+        this.state = {
+            content: ""
+        }
+    }
+    componentDidMount() {
+        fetch("https://gateway.pinata.cloud/ipfs/QmVLiVzjvER8Uwzk81VCG4ndv4UpBrCar4QcRFja3HYK6a")
+            .then(res => res.text())
+            .then(
+                (result) => {
+                    this.setState({
+                        content:result
+                    });
+                },
+                (error) => {
+                    this.setState({
+                        content:"null"
+                    });
+                }
+            )
+    }
     render() {
         return (
             <div>
@@ -41,7 +65,11 @@ export default class extends Component {
                 {/* <StarRate numberStar="2"></StarRate> */}
                 {/* <GoTopPage>Top</GoTopPage> */}
                 {/* <TabView dataTabView={dataTabView}></TabView> */}
-                <CardComment/>
+                {/* <CardComment/> */}
+                {/* <Mn_Test/> */}
+                <div>
+                    {parse(this.state.content)}
+                </div>
 
             </div>
         );
