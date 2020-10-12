@@ -497,13 +497,11 @@
 }
 
 .category-child-container>a {
-    padding: 0.2rem;
-    background-color: #FFEBEB;
     margin: 0.1rem;
     cursor: pointer;
     width: auto;
     height: auto;
-    border-radius: 7px;
+    padding: 2px;
 }
 
 .category-child-container>a:hover {
