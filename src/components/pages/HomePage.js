@@ -10,70 +10,70 @@ const dataImages = [
 ]
 const dataProduct = [
     {
-        linkImage: "https://loremflickr.com/2300/200",
+        linkImage: "https://loremflickr.com/200/200",
         price: "4078",
         numberBought: "5453",
         title: "Combo 3 Tinh",
         numberStar: "2"
     },
     {
-        linkImage: "https://loremflickr.com/501/2001",
+        linkImage: "https://loremflickr.com/200/200",
         price: "4",
         numberBought: "54",
         title: "Zebronics BT4440 RUCF 60 Watt Bluetooth t Bluetoot Bluetooth t Blt Bluetooth t Blt Bluetooth t Blt Bluetooth t Blt Bluetooth t Blth",
         numberStar: "2"
     },
     {
-        linkImage: "https://loremflickr.com/2702/2302",
+        linkImage: "https://loremflickr.com/200/200",
         price: "4",
         numberBought: "54",
         title: "Zebronics BT4440 RUCF 60 Watt Bluetooth",
         numberStar: "2"
     },
     {
-        linkImage: "https://loremflickr.com/2203/1203",
+        linkImage: "https://loremflickr.com/200/200",
         price: "4",
         numberBought: "54",
         title: "Zebronics BT4440 RUCF 60 Watt Bluetooth",
         numberStar: "0"
     },
     {
-        linkImage: "https://loremflickr.com/2051/2301",
+        linkImage: "https://loremflickr.com/200/200",
         price: "412",
         numberBought: "54",
         title: "Zebronics BT4440 RUCF 60 Watt Bluetooth",
         numberStar: "2"
     },
     {
-        linkImage: "https://loremflickr.com/202/202",
+        linkImage: "https://loremflickr.com/200/200",
         price: "4",
         numberBought: "54",
         title: "Zebronics BT4440 RUCF 60 Watt Bluetooth",
         numberStar: "2"
     },
     {
-        linkImage: "https://loremflickr.com/203/203",
+        linkImage: "https://loremflickr.com/200/200",
         price: "4",
         numberBought: "54",
         title: "Zebronics BT4440 RUCF 60 Watt Bluetooth",
         numberStar: "2"
     },
     {
-        linkImage: "https://loremflickr.com/203/203",
+        linkImage: "https://loremflickr.com/200/200",
         price: "4",
         numberBought: "54",
         title: "Zebronics BT4440 RUCF 60 Watt Bluetooth",
         numberStar: "2"
     },
     {
-        linkImage: "https://loremflickr.com/204/204",
+        linkImage: "https://loremflickr.com/200/200",
         price: "4",
         numberBought: "54",
         title: "Zebronics BT4440 RUCF 60 Watt Bluetooth",
         numberStar: "2"
     },
     {
-        linkImage: "https://loremflickr.com/205/205",
+        linkImage: "https://loremflickr.com/200/200",
         price: "4",
         numberBought: "54",
         title: "Zebronics BT4440 RUCF 60 Watt Bluetooth"

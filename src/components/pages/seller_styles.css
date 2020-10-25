@@ -1,0 +1,57 @@
+.seller-menu{
+    width: 14rem;
+    background-color: #FFFCEB;
+    padding: 0.2rem;
+    height: 100%;
+}
+.seller-menu-logo{
+    padding: 2rem 0.1rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #F3F5F6;
+}
+.seller-menu li{
+    box-sizing: border-box;
+    padding-left: 1rem;
+    position: relative;
+}
+.seller-menu li:hover{
+    background-color: #FFF9D6;
+}
+.seller-menu nav,
+.seller-menu a{
+    display: block;
+    color: black;
+    height: 3rem;
+    width: 100%;
+    line-height: 3rem;
+    cursor: default; 
+}
+.seller-menu nav::after{
+    content: ">";
+    float: right;
+    font-size: 1.2rem;
+    margin-right: 0.4rem;
+
+}
+.seller-chird-menu{
+    display: none;
+    position: absolute;
+    left: 99%;
+    top:0;
+    width: fit-content;
+    background-color: #FFFCEB;
+    padding: 0.5rem 0.1rem;
+    transition:display 10s;
+}
+.seller-menu li:hover .seller-chird-menu{
+    display: block;
+}
+.seller-chird-menu li{
+    height: 2.5rem;
+    font-size: 0.9rem;
+    padding: 0 2rem;
+}
+.seller-chird-menu li:hover{
+    background-color: #FFF9D6;
+    
+}

@@ -17,7 +17,10 @@
 
 .quick-notification {
     flex-grow: 1;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .homepage-category-top {
@@ -31,10 +34,11 @@
 }
 
 .homepage-product {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    grid-template-columns:20% 20% 20% 20%;
+    grid-auto-rows: auto;
 }
 
 .homepage-product>.product-card {
@@ -241,4 +245,44 @@
 
 .cart-total-price li input:hover {
     background-color: #FF1F1F;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .homepage-product {
+        grid-template-columns:80%;
+    }
+    .homepage-content{
+        flex-direction: column;
+    }
+    .banner{
+        width: 100%;
+        
+    }
+    .quick-notification{
+        flex-direction: row;
+    }
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .homepage-product {
+        grid-template-columns:50% 50%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .homepage-product {
+        grid-template-columns:33% 33% 33%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .homepage-product {
+        grid-template-columns:23% 23% 23% 23%;
+    }
 }

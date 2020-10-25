@@ -16,40 +16,39 @@ const dataImages = [
     "https://loremflickr.com/1500/500",
     "https://loremflickr.com/1500/501"
 ]
-const dataTabView = [
-    {
-        title: "Description",
-        content: <StarRate numberStar="1" />
-
-    },
-    {
-        title: "Description",
-        content: <StarRate numberStar="1" />
-
-    }
-]
 export default class extends Component {
     constructor() {
         super();
         this.state = {
-            content: ""
+            dataTabView: []
         }
+
     }
-    componentDidMount() {
-        fetch("https://gateway.pinata.cloud/ipfs/QmVLiVzjvER8Uwzk81VCG4ndv4UpBrCar4QcRFja3HYK6a")
-            .then(res => res.text())
-            .then(
-                (result) => {
-                    this.setState({
-                        content:result
-                    });
+    async componentDidMount() {
+        let data = await this.getData("https://gateway.pinata.cloud/ipfs/QmdzkZW23asVo6FGpo5mLzCigFm1SLngAXfgzxPbS69HbV");;
+        this.setState({
+            dataTabView: [
+                {
+                    title: "Description",
+                    content: parse(data)
+
                 },
-                (error) => {
-                    this.setState({
-                        content:"null"
-                    });
+                {
+                    title: "Description",
+                    content: <StarRate numberStar="1" />
+
                 }
-            )
+            ]
+        })
+    }
+    async getData(url) {
+        try {
+            const response = await fetch(url)
+            const data = await response.text()
+            return data
+        } catch (err) {
+            console.log(err)
+        }
     }
     render() {
         return (
@@ -64,12 +63,12 @@ export default class extends Component {
               <HomePage></HomePage> */}
                 {/* <StarRate numberStar="2"></StarRate> */}
                 {/* <GoTopPage>Top</GoTopPage> */}
-                {/* <TabView dataTabView={dataTabView}></TabView> */}
+                <TabView dataTabView={this.state.dataTabView}></TabView>
                 {/* <CardComment/> */}
-                {/* <Mn_Test/> */}
+                {/* <Mn_Test/>
                 <div>
                     {parse(this.state.content)}
-                </div>
+                </div> */}
 
             </div>
         );

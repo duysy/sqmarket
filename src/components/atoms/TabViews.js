@@ -33,7 +33,7 @@ export default class extends Component {
                 <div className="nav-tab-panel">
                     {
                         this.props.dataTabView.map((item, index) => {
-                            return <div key={index} className={"tab-content tab-description" + String(index === this.state.tabActive ? " tab-active" : "")}>
+                            return <div key={index} defaultChecked className={"tab-content tab-description" + String(index === this.state.tabActive ? " tab-active" : "")}>
                                 {item.content}
                             </div>
                         })
